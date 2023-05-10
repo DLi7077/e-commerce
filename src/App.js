@@ -1,35 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import Checkout from "./views/Checkout";
-import HairProducts from "./views/HairProducts";
-import Login from "./views/Login";
-import OrderTracking from "./views/OrderTracking";
 
-const routes = [
-  {
-    path: "/",
-    element: <HairProducts />,
-  },
-  {
-    path: "/checkout",
-    element: <Checkout />,
-  },
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/tracking",
-    element: <OrderTracking />,
-  },
-];
+import Navbar from "./components/Navbar";
+import { ROUTES } from "./constants/routes";
 
 function App() {
   return (
     <>
+      <Navbar />
       <div className="container">
         <Routes>
-          {routes.map((route) => (
-            <Route {...route} />
+          {ROUTES.map((route) => (
+            <Route key={route.path} {...route} />
           ))}
         </Routes>
       </div>

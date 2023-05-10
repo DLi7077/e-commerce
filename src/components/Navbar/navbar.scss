@@ -1,0 +1,13 @@
+$navbar_background: hsl(170, 50%, 45%);
+$navbar_height: 40px;
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: $navbar_background;
+  height: $navbar_height;
+  width: 100%;
+  padding-inline: 1rem;
+}
