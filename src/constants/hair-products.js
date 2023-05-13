@@ -1,4 +1,4 @@
-const HAIR_PRODUCTS = [
+export const HAIR_WAX = [
   {
     name: "Wax Pomade Size 2.5 oz | Lightweight Hair Pomade & Paraben Free | Public Goods",
     price: 9.25,
@@ -562,18 +562,516 @@ const HAIR_PRODUCTS = [
   },
 ];
 
-export default HAIR_PRODUCTS;
+export const HAIR_SPRAY = [
+  {
+    name: "Simpler & Safer Hair & Beard Dye For Men, Natural Black",
+    price: 45,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTyMloDv8CRSdJsqtkLcec57vKT3O8s-9YmT0GgNJ2AEVtgknXDoUcXltxoKU6_BjK8GWTntUOSY7lU_Px4Ygre2834DpBD8GATYb5oUbuag3ySDGMXp8Qc&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABADGgJ5bQ&sig=AOD64_2LRCdPJ1YJ4whgUDf-ToRlrIrP6A&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IlxQ&adurl=",
+    brand: "Simpler Hair Color",
+    reviews: 4,
+    rating: 4.5,
+  },
+  {
+    name: "Vegamour - GRO Dry Shampoo - Volumizing Texture Spray - Best Dry Shampoo to Promote Natural Hair Growth and Thickness",
+    price: 32,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTuv4TMVMFIBiSr7WbP1smaFsBZFJOR-PKNFHVrczTZ-xhUVCvy1H6MWEwZg01cuk0p_hYt-yVXtZJdY-wOA1LMWVcwDYLJSzUv47nR4XOzTY4_PZOjlalUCgA&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAFGgJ5bQ&sig=AOD64_0U6oZk7tf73qo4rh0_POx8d0f81Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8ImxQ&adurl=",
+    brand: "Vegamour",
+    reviews: 1,
+    rating: 4,
+  },
+  {
+    name: "Texturizing Spray: Men's Texturizing & Volumizing Spray | Oars + Alps",
+    price: 16,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTY5e_tZTLKx1UhfoiOrYltlSwxXTxRh00hl3i5DyBeF6DLfAC60Uu5gFkg2fPPrxHs7wKhj_K9bDKaMXGmgKUEd7q30lT3B7dtYmo5WUcoi9N3sufkpik1iQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAIGgJ5bQ&sig=AOD64_1Ife2WDG35QG9i5qheqm3pyLzeZg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IohQ&adurl=",
+    brand: "Oars + Alps",
+    reviews: 86,
+    rating: 4.5,
+  },
+  {
+    name: "Natural Sea Salt Spray for Men's Hair | Pete & Pedro 8.5 oz. Regular Size $20",
+    price: 20,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPBK1rmE0fmuzksTNV6y_1FwFXmJfqZojmEZfIwHUnZco_A6-rxaWpc7gj_3BUw5hAG3cnT3ABoBz36T9zpAcgfmHVSbbvk4ed_pAN-qncxsNYbemi-aB2OA&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAQGgJ5bQ&sig=AOD64_0bDxeMpSrk18VtYMmDg_sxsdvxVQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IsxQ&adurl=",
+    brand: "Pete & Pedro",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Vegamour - GRO+ Advanced Hair Serum for Thicker, Visibly Longer Hair - Best Hair Growth Oil with Natural DHT Blocker to Combat Hair Loss",
+    price: 74,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRc3lHpqXea7MHWqShn0iLLrTI3iqAsw_QFyN_FpA0G2wzW7XTGnOWjy9Xi7bf5SZKGWsAQq20JllPv9LPqWjQ92MrEtusBmMX2KgszTwJ6AU_MpOaONMM-fYQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABASGgJ5bQ&sig=AOD64_2kbeN50QvYuSKtCWhq4nJ4zp40yQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IthQ&adurl=",
+    brand: "Vegamour",
+    reviews: 1,
+    rating: 3,
+  },
+  {
+    name: "Glossing Detangler|LolaVie Full Size",
+    price: 26,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4O0-qNdyxbv7Y34ra_XNtRjEcsonHzOYZ3ZWtKXIiA-rFi4e6Q0eT89x7l_zqbMmOqNXU2RXZOyJRqPM_1sATlUmM6TiRTiAEz4t5-sqs-WLsRYGbr8Vn&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAVGgJ5bQ&sig=AOD64_3xB7CsB7Vze75suKar_t-b-7j6fQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IvRQ&adurl=",
+    brand: "LolaVie",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Flexible Hold Hairspray for fighting frizz and humidity | Aiir Professional 9 oz",
+    price: 33,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRFidyPY0XBI1jwr2okFFniDcBhEUc06VszH4Whcp2xG8W93aLwthbtALf4YuvzABIQSw3nrP1kSmsDswsIqLyOK-DIeshdJgBvycVYx14JWJbD715QTGjE&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAXGgJ5bQ&sig=AOD64_0F1vp0WO5BhLgDMZwpQ4RvQigCcQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IwRQ&adurl=",
+    brand: "AIIR Professional",
+    reviews: 52,
+    rating: 5,
+  },
+  {
+    name: "Hair Spray (8 fl oz.) | John Masters Organics",
+    price: 29,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTDAUaliPJ2NlSe--9eidqB5YnDn3sPquvBAQEMa-C_OSvSCgbxrgZGuinhF7puBTQ0tq8ZPEAH6cGySqwmrat-z_K4mhsX95BCMLeYkra3WeeNP9LJ94r0Tw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAbGgJ5bQ&sig=AOD64_2WHr8NV0EtforOgBzskHpJeXZzeQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IxhQ&adurl=",
+    brand: "John Masters Organics",
+    reviews: 288,
+    rating: 4.5,
+  },
+  {
+    name: "Hairstory | Lift Volumizing Spray",
+    price: 38,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSbFPFgKn7WQlqvlV74sOe3AA6NuphM0zel1JgmTKdxjOAxobg5RVinisj7jlY0E9s2eidD9nqqQlVtYpS8Avg20xsHvFleIfB-ryWrUn3bSbxYUtKew89o&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAdGgJ5bQ&sig=AOD64_0LOhc0e7VJUUovjFwKMY1vg9Yq2Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IyRQ&adurl=",
+    brand: "Hairstory",
+    reviews: 22,
+    rating: 4,
+  },
+  {
+    name: "Philip B. Jet Set Precision Control Hair Spray",
+    price: 45,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSir_6sdBw5xbtvOv1RLcu1IJ5X6iQbWRTskkvabTFvPtXqtSctZeADyYkMVPg4VHwa4klt3ek7iomqAOcEBBnXNoEAr3lr0BapaRD_J0oqhaD-QsM2O8yg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAfGgJ5bQ&sig=AOD64_3RdttTbOl4fCgS0qyedosrR8dz1Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IzBQ&adurl=",
+    brand: "Philip B.",
+    reviews: 43,
+    rating: 5,
+  },
+  {
+    name: "IGK Hair - AB IGK Good Behavior Smoothing Spray Spirulina Protein Smoothing Spray",
+    price: 34,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSRIzTBfKOO1OGJWSpwDDX-HofJSh1z8dN8GIPllSPE-Lr49Ev2PvqogydwwIwQUWd8d0dwvQwapO_wO1-tPJCbzHZsqBoHaqvisu0KEg30YaIYnutzNPOGaQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAmGgJ5bQ&sig=AOD64_2E0shaiX-yD9l-e7sfxn5NlvOt6Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I3BQ&adurl=",
+    brand: "IGK Hair",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Men's Sea Salt Spray for Hair & Beard - Old Money - 4 oz - Best Natural Sea Salt Spray for Beach Hair Texture & Volume - Beardbrand",
+    price: 17,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ70uRFSWINJcNnJDcRUfugRyZCl_wuBD96_cYpfhgBopNyZbAqhbE8EOcN5uB-8bH4iXGpo5DEpMNucmD49gr2mGsY6SVD-7UqHReR011ehxkeUL2YVodECag&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAoGgJ5bQ&sig=AOD64_2LjRfREJzLyiEUal2m8sIhLUeQgg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I4BQ&adurl=",
+    brand: "Beardbrand",
+    reviews: 807,
+    rating: 4.5,
+  },
+  {
+    name: "Luminous Hairspray Strong",
+    price: 26,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSILTOh5rnQ8a4et3q7SVjwD_ob5l3xmfglPC3woET71uZ33GRfAWFZVojsBpPBP-WXlVdz7Gy-fwK20awPoQa9EVK_w-yUrmewCf4TnJVCUK5nLx-zXhJegw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAqGgJ5bQ&sig=AOD64_389bnnKpFYoup_IlHkOj3niER8Rw&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I5BQ&adurl=",
+    brand: "Moroccanoil",
+    reviews: 2,
+    rating: 4.5,
+  },
+  {
+    name: "Living Proof Style Lab Flex Hairspray | Full Size | Sets, Styles & Finishes Damp Or Dry Hair",
+    price: 30,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQQEJusww00dfl8sY82fQ6Kv5j2UQGxTkAAPxBhxqnEIERy9HOd9kOkjtNyGl8_meEXZLXCGk1wlTATJed2CAAu7xlXwCljFVIeMPafmAPVXFODxx35MLtlsw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABAyGgJ5bQ&sig=AOD64_0quU6NObNOYJ4QyQOtUIdB6IcFDQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I8BQ&adurl=",
+    brand: "LivingProof.com",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Particle for Men Hair Revival Kit for Thinning Hair",
+    price: 89,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTUGQGjvzJF-d0naF0SP_H0NQMyNhVudaJ-ay3fyCEyq2FOKisTcMe7Ag1afNXDaDTlnkto--Voc0kzjHTmSJN6Hw6FDYRpWHJ1lxeadPxgL3k7WfNWkDBb&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABA0GgJ5bQ&sig=AOD64_32McTymQg9bWF3tocVUMVCdD5-zA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I8xQ&adurl=",
+    brand: "Particle Aesthetic Science",
+    reviews: 133,
+    rating: 5,
+  },
+  {
+    name: "Instant Hair Thickening Spray - Adds All-Day Volume & Texture - For Fine, Thin Hair Types | Forte Series",
+    price: 18.95,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQywTeadAZMrQE99anFWCt9CZaQ4GGEbU1zSGcWN7NbMILnWUVU0eQQM4kKZ61fPqMV0_7VthiMyjgw_AAMERLwnSmDc7eEjbxMIK8AB_Sb5b_Rb1DGqZEb&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABA2GgJ5bQ&sig=AOD64_0edkLu0mWGcf7fKZFLb6mEjeNAEg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8I9xQ&adurl=",
+    brand: "Forte Series",
+    reviews: 49,
+    rating: 4.5,
+  },
+  {
+    name: "Together Beauty Hair Setting Spray | Promise Land | Clean, Non-Aerosol & Cruelty-Free | No Sulfates, Parabens or Silicones | 5 fl oz / 148 ml",
+    price: 28,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT1lBdHMV91ZdG6glR5ysnqnDtNMjAxuv1kGwBC76Umy-UplhXyYUkqopB5N_64yjPz7f4ohasL0TxYiTClPViU4TzHCXXvdquyM10kQSp0-icCP_Pkalp-&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABA-GgJ5bQ&sig=AOD64_1erkjmNnsQVpfEoGyS3FTVVK9lDA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IghU&adurl=",
+    brand: "Together Beauty",
+    reviews: 24,
+    rating: 4.5,
+  },
+  {
+    name: "Hair Volumizing Spray 3.4 oz | Rossano Ferretti",
+    price: 48,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTK17R6qXD7Nub51NLPvm1KQEIH2-m62WF-NycZyeciwQ-Ge7TIkfWnbh2fc4Klira-dHrNjdJ_pzHRTCOttfdCalOccYalHwafJofBE7S8ya2jNdZQM-BmWg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBAGgJ5bQ&sig=AOD64_2eUmfmJyOy5xyuP4WipamIAh_y1g&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IhRU&adurl=",
+    brand: "Rossano Ferretti Official",
+    reviews: 103,
+    rating: 4.5,
+  },
+  {
+    name: "Aveda air control light hold hair spray - 9.1 oz/258 g",
+    price: 37,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ_x6ndS3d5Tu9-s_lXrXjwLGr420UeN8_ihNy0orkifc_kTx4OswJ1IxjBPz4IenSahxyGhtsxjeSU1JfxRFwxxxJF6kdw83pxISd8Kt6y4yV854kAPIab&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBCGgJ5bQ&sig=AOD64_3Sf_PNqSeqzUa9xUrs-0aJkVNNhw&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IiBU&adurl=",
+    brand: "Aveda",
+    reviews: 2,
+    rating: 4.5,
+  },
+  {
+    name: "OUAI Texturizing Spray For Hair - Volumizing Hair Product",
+    price: 28,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQGPLbScUxpaTmKQFrXN419efhoQoBkS4f9fwsWK_vG0adybS7UINrPG4D1qlONhMPus0G6CjgxF1-9o5uZ7RXyDsXJqN02DS8Odedc4a5Qyb4CbYJ7RNJRLg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBIGgJ5bQ&sig=AOD64_2fM-o66x7SnNIydEkx1-m9xB3fyQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IlhU&adurl=",
+    brand: "OUAI Official Site",
+    reviews: 3,
+    rating: 4.5,
+  },
+  {
+    name: "Hemp-Infused GRO+ Advanced Hair Serum Kit for Thinning Hair - 3 Month Supply",
+    price: 183,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRR-ALk1dPCs8Zukj-Cy6PFiXmnYru_MQIY336CKNntUEtoOuBXikddNQnGjZ9yI0ujx0B6szyC82Ucwj4wR9WyoH-G7IjyUNZhJolUargp9ywiMhIf93O6Yg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBKGgJ5bQ&sig=AOD64_3hQVb6Rf5yaOCwfe3wJb9fPY0HTQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8ImRU&adurl=",
+    brand: "Vegamour",
+    reviews: 275,
+    rating: 3.5,
+  },
+  {
+    name: "Clinique Non-Aerosol Hairspray - 8 fl. oz",
+    price: 17,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS8knmhad_SoaRXJDxI1lrpBWRwNxYYAttTxHZhFI_H2ne1L4ah7NXSze1KCbE42itng2fZul8fkj38kIQTDH4su7BBOt66seO9eUG69Sr7mvlPgGsAVCBc&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBNGgJ5bQ&sig=AOD64_2D8ZpENqUIoNBfAxtWHneMQQRTMw&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IoBU&adurl=",
+    brand: "Clinique",
+    reviews: 380,
+    rating: 4.5,
+  },
+  {
+    name: "As I Am Jamaican Black Castor Oil Water",
+    price: 6.99,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTJG7MeuyasV4EHw4_auLPgBqRWc0JPWXyB9vGbxSINBSCx6d-SOQEQZ0s6a7AJO6u2N8NK_2WItdxDQdU2r4VIv15-dZ9nn6iR7chJQitVrngPQF2Emop3xQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBRGgJ5bQ&sig=AOD64_0IqxVNP7Z_8sqxXTBS84Jt6MPA5Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IpRU&adurl=",
+    brand: "Sally Beauty",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Freeze Spray - Hair Hold & Volumizer",
+    price: 14.99,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSVzr64R0F9wIq97l7M1Ll0GxNQfdkBF69pMUYWvFkFgSHJAeMrHiDeu4-Ui5beXuv4M5vD2CuAvqX3ewMKRSeAeywUWq9QNdbAicQKrt46yF5yTyMYcg5B&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBXGgJ5bQ&sig=AOD64_1n37wStISINqiZ2pqWgWtfpZgXBA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQww8IrBU&adurl=",
+    brand: "Pacinos Signature",
+    reviews: 22,
+    rating: 5,
+  },
+  {
+    name: "Natural Sea Salt Spray for Men's Hair | Pete & Pedro 2 oz. Travel Size $9",
+    price: 9,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSPBK1rmE0fmuzksTNV6y_1FwFXmJfqZojmEZfIwHUnZco_A6-rxaWpc7gj_3BUw5hAG3cnT3ABoBz36T9zpAcgfmHVSbbvk4ed_pAN-qncxsNYbemi-aB2OA&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBZGgJ5bQ&sig=AOD64_2BBl6kPWAzvmTUgqRfGl-HsRkGgA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IliQ&adurl=",
+    brand: "Pete & Pedro",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Flexible Hold Hairspray for fighting frizz and humidity | Aiir Professional Travel Size 2.5 oz",
+    price: 15,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSSYRLwsFfMwYyb4N4SRR4B2ss-K708xneQUUrfEWofTqBcI5YR0MpU9Xxa_7GwlKvvUuZoLg8hBTxEVrV0nz8RPn9Z_NZOhu4HJbrOQB4Q6jByY7u-kh6v&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBfGgJ5bQ&sig=AOD64_054WH6x-R91eKpEMuGICqW2diQnQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4InSQ&adurl=",
+    brand: "AIIR Professional",
+    reviews: 52,
+    rating: 5,
+  },
+  {
+    name: "Shu Uemura - Moya Hold Hair Spray - 227G/8.0 Oz",
+    price: 42,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRJQACohssujdUNfVv8FyPnQuC0rkOZ-hCqS_uXORQLSfZWuZ3Rh7GfFYnrOXF1UbdmUpabFy9ooMcnegG-A5ZQ7GQxAx6O7mn3WCycloD0tV3Iox7GlGm9Hw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBjGgJ5bQ&sig=AOD64_3TP1WJItlecCFg0YEssBDoEPUQ7g&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IoyQ&adurl=",
+    brand: "Shu Uemura Art Of Hair",
+    reviews: 235,
+    rating: 4.5,
+  },
+  {
+    name: "Sea Salt Spray For Hair - Texturizing For A Beachy, Surfer Look - Alcohol-Free - For All Hair Type | Forte Series",
+    price: 19.95,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRErrIW4mkIkOCfHV9dI2PxzyuI9cv3pYNwyWoELtQx5XJYckyNvcpTgM7IH524US628hfTfMm4N_g9y4SOv0zgYy8noW9sSTBZ2F_dlnVt_1DmhcV9LJwgVQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBoGgJ5bQ&sig=AOD64_2yZS__3QmEevMEK9qPHt_5ReiGrg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IrCQ&adurl=",
+    brand: "Forte Series",
+    reviews: 55,
+    rating: 4.5,
+  },
+  {
+    name: "R+Co VICIOUS Strong Hold Flexible Hairspray, 9.5 oz | Dermstore",
+    price: 36,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTmfuIvO9HYuBwU4-6RebSdE0T-i-cmzrLJbez_3vAVZN6GsCEtcs5AxAexL1Z0mvRB2FuEJLJ8C2iLVCezK-lHebRW9TyMgWQuo-_H3fUsb8Jm8EOdIZ9i&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABBvGgJ5bQ&sig=AOD64_1a4Jb0GmKtwf2_-5H4HI-Cb980Pg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IuCQ&adurl=",
+    brand: "Dermstore.com",
+    reviews: 174,
+    rating: 4.5,
+  },
+  {
+    name: "Ghost Mist Finishing Spray 6 FL OZ",
+    price: 26.9,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT2fD-myyW65JJ2Z305d0TDv3JkcWdqACEwPo7fcDMYRP3ssC_ufUuJSHE0grCXzVS_RlqNQVlH28YEwtwxdHmIWqFcge1sJl71cm52lPjTo_0vnRMZuihS&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABB1GgJ5bQ&sig=AOD64_1PtMnBtbCOCXizIGdHZRoQ13Ehlw&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IvyQ&adurl=",
+    brand: "Best Hair System",
+    reviews: 5,
+    rating: 4.5,
+  },
+  {
+    name: "Men's Sea Salt Spray for Hair & Beard - Old Money - 4 oz - Best Natural Sea Salt Spray for Beach Hair Texture & Volume w/ Pump - Beardbrand",
+    price: 18,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSe-pGmJkbkIL9_YJPEeqKkP18Vkec0fj9AS08DvuW0Q8gOpzfFwBlPO27uvlWO7vWwFEonW9dY7MhpEcOsIq4eluFtOpkkBhnspIjWcqo5045Q5lld90lgAg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABB5GgJ5bQ&sig=AOD64_3vEziBTixdlKj-skZd4_F4cgDwBQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IxiQ&adurl=",
+    brand: "Beardbrand",
+    reviews: 807,
+    rating: 4.5,
+  },
+  {
+    name: "Freeze Spray - Hair Hold & Volumizer",
+    price: 14.99,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSVzr64R0F9wIq97l7M1Ll0GxNQfdkBF69pMUYWvFkFgSHJAeMrHiDeu4-Ui5beXuv4M5vD2CuAvqX3ewMKRSeAeywUWq9QNdbAicQKrt46yF5yTyMYcg5B&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABB7GgJ5bQ&sig=AOD64_01yKxMRHU8Cneaz2PMwXDbjNDQ4w&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IyiQ&adurl=",
+    brand: "Pacinos Signature",
+    reviews: 22,
+    rating: 5,
+  },
+  {
+    name: "King C. Gillette Men's Beard Thickener with Vitamin B Complex and Caffeine -1.7 fl oz",
+    price: 13.69,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT2YJJ7ufOCXCs61nnOiuTWIoSDc8gAV34ncGXRlc4Hmig6AcSC4-yaCqh-PTgIR4zRZDcrP41hWrB2DJBDw35PxnbHLWnsCWkvde-atCgWFzAhbFAih-r8&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABB_GgJ5bQ&sig=AOD64_1inVtS6yS72WEpoqe6y65o1QQaxg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IzyQ&adurl=",
+    brand: "Target",
+    reviews: 106,
+    rating: 4.5,
+  },
+  {
+    name: "Jack Henry Hair Refresh - Adds Thickness + Texture - Styles + Helps Control Flyaways",
+    price: 24,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQSBwyIw6NG4iwqclbSy6eW_a0MWzGvPpLWeLiY5E3J7ZH_t7B4wDr4RO-xO7suAyTHR9ImiFuobmrPq2FzWfNE0j1a3SzlhIF2ROkBo75FKUmiCbVLb2Bs3A&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCBARoCeW0&sig=AOD64_1xQPtOsX0ekbKOrt317f2sUEdaeQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I0yQ&adurl=",
+    brand: "jackhenry.co",
+    reviews: 120,
+    rating: 5,
+  },
+  {
+    name: "Scalp Serum For Dry & Itchy Scalp - Reduce Dandruff Symptoms In As Little As 3 Days",
+    price: 42,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS893jCmhIH-Dwf33GUAKfPJLOrAgZ44yxsZp8Scmus9a6kpbRPxrVnkFCoXq-ghW-92jkGyX9w9s5b9FmgLpqNlBpyYluTgW_EXlLuzZAVjOUiScJSc4qQ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCDARoCeW0&sig=AOD64_0MtslMaGj8hB3GuE4YXudEYVmAog&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I1iQ&adurl=",
+    brand: "Vegamour",
+    reviews: 829,
+    rating: 4,
+  },
+  {
+    name: "Aveda firmata firm hold hair spray - 8.5 fl oz/250 ml",
+    price: 29,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQzOb464iS_70xkMYljrCeWbWge2EePhHNN38I_-9IJ4YRHTMXed5xQ0pURZCLcMzXL0h9EDEXo2MoNLVSFFQxA_pPcMg6m5vDDNSrjq7_t9GSvQJXasZCG&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCGARoCeW0&sig=AOD64_0HsK8001pnCBg-vDfVELdy0aVChA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I3SQ&adurl=",
+    brand: "Aveda",
+    reviews: 458,
+    rating: 4.5,
+  },
+  {
+    name: "VOLUME Volumizing & Thickening Biotin Shampoo | Best Men's Shampoo VOLUME Only $17",
+    price: 17,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTeRCphjybVfzW8r2ZWLHr4liWz4CA_M6Gv6kcehhi39qulj8uymiDrqQY7NKGyEhMBqSxlKcgDUUapU6VL6HIPw_ivbHkMUAMJ9XayKyAYW9Bl3CRMjTvJ&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCNARoCeW0&sig=AOD64_3Muzl-OqJihveKzFrXFKTazBYAFg&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I6CQ&adurl=",
+    brand: "Pete & Pedro",
+    reviews: 161,
+    rating: 4.5,
+  },
+  {
+    name: "OUAI Wavy Hair Spray - Curl Enhancing Spray",
+    price: 28,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQI_DzMbtN23wFtwAYjOiKD0jErpV1nUmjqu-cxOV_i6d5LkPj2MavZUMThI9KaH7kh21E4fHZj1Vw0hvoi6wLWphGRFG1HwVrABP2gnwkZtHP0dokhiStfbg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCPARoCeW0&sig=AOD64_1jU9iMwqXmcPf_KxBMkbpcF_fJkA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I6yQ&adurl=",
+    brand: "OUAI Official Site",
+    reviews: 6,
+    rating: 4,
+  },
+  {
+    name: "Luminous Hairspray Medium - 330 ml",
+    price: 26,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSEaSNE6-_flhpoMwZqW6YPnhZHKov3Zz77tVf_x2R3oG5jZsFXT44OOydNr8T9xw2zChyKfwu6BEP9Ug6W4ibkwymj8EQMXDuSBPVOSy3K9KPeBoxMlGCi&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCVARoCeW0&sig=AOD64_1v0RvrVuWrpUwcQVRPuoNuROop5Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I8iQ&adurl=",
+    brand: "Moroccanoil",
+    reviews: 1,
+    rating: 4.5,
+  },
+  {
+    name: "Final Touch Hair Spray",
+    price: 9.99,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRnywiQ4B4EbSPfCXj1wHs-Ufka33-1GL9ZtVKKXXRU8milXa2VrLmhjJaAQi2Pmez472BMuB6b3XJ2Z-I7cB5eOZ2nsNmv_tiAs-TllmAl0BmlkK_PVVNm8w&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCXARoCeW0&sig=AOD64_1dgTDX19mC81UvqTUdBjEB80xg2Q&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I9iQ&adurl=",
+    brand: "Pacinos Signature",
+    reviews: 10,
+    rating: 5,
+  },
+  {
+    name: "Hair Spray - Firm Hold Hair Spray | Josh Rosebrook",
+    price: 19,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSsEPbSj2_wrzjSEerF2Ws78q01rXz-SXJVyLyui9qVnHD3WpQcv3aVQ25Qg2qqI1ANYCrjYQTZeQMgBB49A0I-x2hm1sf0gg&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCbARoCeW0&sig=AOD64_1Wkpn2s1jAPBJ6KzxSytXjh5WN7w&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4I_CQ&adurl=",
+    brand: "Josh Rosebrook Skin and Hair Care",
+    reviews: 389,
+    rating: 4.5,
+  },
+  {
+    name: "Hair Fibers Kit & Freeze Spray Black",
+    price: 34.99,
+    image_url:
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQG2H944AUrk6WtCPKNKPa8dPP5D94ZF4RJhZSltn09ufgxO48p9LPevUc7_Oi314qr0CIIOwtVPpG8Rk6cMTEtXlK0DSaRUMNox4LCT3qGb8jT5BQkNt8p&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCiARoCeW0&sig=AOD64_1mlfdfnxG8A9bfcDAZwh9N2B_VlQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IjCU&adurl=",
+    brand: "Pacinos Signature",
+    reviews: 30,
+    rating: 4,
+  },
+  {
+    name: "Jamaican Mango & Lime Jamaican Mango & Lime No More Itch Spray 8 oz",
+    price: 5.99,
+    image_url:
+      "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ2_Pt7w5PkiIgF0K_nONLV5_RYhRksd9bKN48MS6fTzqp3dPwgqqFr7kOBVC0K8iGWu_wSc8p4k5KvS-bHR5wzcl2LkqnnFfj3njl5qHw3QIV0t5wd_p3GBw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCkARoCeW0&sig=AOD64_2aYTkqJ4eOz73pFKzFJjWA-L8kEA&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IkCU&adurl=",
+    brand: "Sally Beauty",
+    reviews: 97,
+    rating: 4.5,
+  },
+  {
+    name: "Luminous Hairspray Strong - Travel Size",
+    price: 12,
+    image_url:
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQIPxRAjIzTCCux1bAJl7EuedUpzklqomW_hWa-aoXpJGxJfpMgSonve_Euky25am-Fz15-Zb9rJ8kcWFdD2DEddPDkVc_IcMjD0pVuOcQ5ZMJ-1U7S86u10XY&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCqARoCeW0&sig=AOD64_1frPMaAHZdwn870MFtk-SvCquqXQ&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4IlyU&adurl=",
+    brand: "Moroccanoil",
+    reviews: 2,
+    rating: 4.5,
+  },
+  {
+    name: "Aveda control force firm hold hair spray - 9.1 oz/258 g",
+    price: 37,
+    image_url:
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQrq4LSaUms83fvdq10ksCmgUhdmXs7hlevFX_6H2-s1klHzAW-o6gmSOatWpZ48ryez1ZzXcHenfsjjxCxmaizql2SoH6S2eshbtzN1jpy61iDCEwTHUOgEw&usqp=CAE",
+    product_url:
+      "https://www.google.com/aclk?sa=l&ai=DChcSEwjC_fnG7fH-AhVE8uMHHcOMDEEYABCsARoCeW0&sig=AOD64_0Z18L714SiJAfQK0CH62PmhdLniw&ctype=5&q=&ved=0ahUKEwj09vLG7fH-AhWVVjUKHVu_DRMQ9A4ImyU&adurl=",
+    brand: "Aveda",
+    reviews: 1,
+    rating: 4.5,
+  },
+];
+
 /*
 webscraped using
 const items = [...document.querySelectorAll('.KZmu8e')]
 console.table(items.map(item=>{
     const image_url = item.querySelector('img').src;
+    const product_url = item.querySelector('a').href;
     const text = item.innerText;
     const [name, priceThing, brand, reviewThing, ratingThing] = text.split('\n');
     if(!ratingThing || !ratingThing.includes('stars')) return {}
     const price = parseFloat(priceThing.slice(1))
     const rating = parseFloat(ratingThing.split(' '));
     const reviews = parseInt(reviewThing.slice(1,-1));
-    return {name, price, image_url, brand, reviews, rating}
+    return {name, price, image_url, product_url, brand, reviews, rating}
 }).filter(item=>item.name))
 */
