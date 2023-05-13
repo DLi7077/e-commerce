@@ -1,0 +1,64 @@
+@use "../../index.scss" as global;
+
+.card-container {
+  box-sizing: border-box;
+  width: min(200px, 100%);
+  background-color: global.$section_body;
+  padding: 0.5rem;
+}
+
+.product-title {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.image-container {
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.product-brand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(global.$content_body, 0.8);
+  padding: 2px;
+  font-size: 0.9rem;
+}
+
+.review-star {
+  color: global.$highlight;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+
+.review-count {
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+}
+.review-details {
+  display: flex;
+}
+
+@media screen and (max-width: global.$small_screen) {
+  .card-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+  }
+  .product-image {
+    width: 70px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    object-position: top;
+  }
+  .product-brand {
+    display: none;
+  }
+}

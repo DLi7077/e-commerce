@@ -1,0 +1,17 @@
+@use "../../index.scss" as global;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: global.$small_screen) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
