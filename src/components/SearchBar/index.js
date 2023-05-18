@@ -8,7 +8,7 @@ export default function SearchBar(props) {
       options={props.options}
       disableClearable
       style={{
-        width: "min(400px,100%)",
+        width: "100%",
         marginBottom: "1rem",
         marginLeft: "auto",
       }}

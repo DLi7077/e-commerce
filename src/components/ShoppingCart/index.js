@@ -5,10 +5,12 @@ import { HAIR_WAX } from "../../constants/hair-products";
 import CardItem from "./CartItem";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import { useNavigate } from "react-router-dom";
 
 const itemsInCart = HAIR_WAX.slice(0, 5);
 
 export default function ShoppingCart(props) {
+  const navigate = useNavigate();
   return (
     <div className={classes["container"]}>
       <div className={classes["header"]}>
@@ -36,7 +38,10 @@ export default function ShoppingCart(props) {
         }}
       >
         Total: $420.69
-        <Button style={{ backgroundColor: "black" }}>
+        <Button
+          style={{ backgroundColor: "black" }}
+          onClick={() => navigate("/checkout")}
+        >
           <ShoppingCartCheckoutIcon />
         </Button>
       </div>
