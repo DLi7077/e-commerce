@@ -16,7 +16,7 @@ export default function ProductCard(product) {
           />
           <div className={classes["product-brand"]}>{product.brand}</div>
         </div>
-        <div className={classes["product-price"]}>${product.price}</div>
+        <div className={classes["product-price"]}>${product.price.toFixed(2)}</div>
       </div>
       <div>
         <a
