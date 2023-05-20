@@ -13,10 +13,18 @@ export default function ProductCard(product) {
             src={product.image_url}
             className={classes["product-image"]}
             alt={product.name}
+            aria-label="Product image"
           />
-          <div className={classes["product-brand"]}>{product.brand}</div>
+          <div className={classes["product-brand"]} aria-label="Product brand">
+            {product.brand}
+          </div>
         </div>
-        <div className={classes["product-price"]}>${product.price.toFixed(2)}</div>
+        <div
+          className={classes["product-price"]}
+          aria-label="Product price USD"
+        >
+          ${product.price.toFixed(2)}
+        </div>
       </div>
       <div>
         <a
@@ -24,12 +32,18 @@ export default function ProductCard(product) {
           href={product.product_url}
           target="_blank"
           rel="noreferrer"
+          aria-label="Link to product from brand's website"
         >
           {product.name}
         </a>
-        <div className={classes["review-details"]}>
+        <div className={classes["review-details"]} aria-label="Product rating">
           <ReviewStars rating={product.rating} name={product.name} />
-          <span className={classes["review-count"]}>({product.rating})</span>
+          <span
+            className={classes["review-count"]}
+            aria-label="Product review count"
+          >
+            ({product.rating})
+          </span>
         </div>
       </div>
       <IconButton
@@ -40,6 +54,7 @@ export default function ProductCard(product) {
           color: "primary.highlight",
           padding: "0.25rem",
         }}
+        aria-label="Add to cart"
       >
         <AddCircleOutlineIcon />
       </IconButton>

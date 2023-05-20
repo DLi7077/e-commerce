@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./shopping-cart.module.scss";
 import { Button, IconButton } from "@mui/material";
 import { HAIR_WAX } from "../../constants/hair-products";
-import CardItem from "./CartItem";
+import CartItem from "./CartItem";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +24,7 @@ export default function ShoppingCart(props) {
       </div>
       <div className={classes["content"]}>
         {itemsInCart.map((item) => (
-          <CardItem product={item} key={`${item.name}-cart`} />
+          <CartItem product={item} key={`${item.name}-cart`} />
         ))}
       </div>
       <div
