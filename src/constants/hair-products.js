@@ -1060,6 +1060,8 @@ export const HAIR_SPRAY = [
   },
 ];
 
+export const ITEMS_IN_CART = HAIR_WAX.slice(0, 20);
+
 /*
 webscraped using
 const items = [...document.querySelectorAll('.KZmu8e')]

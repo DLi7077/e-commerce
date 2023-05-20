@@ -13,7 +13,7 @@ const styles = {
 
 const randomInt = (num) => 1 + Math.floor(Math.random() * num);
 
-export default function CartItem({ product }) {
+export default function CartItem({ product, hideMutate }) {
   const [count, setCount] = useState(randomInt(4));
   return (
     <div className={classes["container"]}>
@@ -29,23 +29,26 @@ export default function CartItem({ product }) {
         </div>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <div aria-label="price in USD">${product.price.toFixed(2)}</div>
-          <div className={classes["quantity"]}>
-            <IconButton
-              style={styles.icon}
-              onClick={() => setCount((p) => p - 1)}
-              aria-label="Remove one"
-            >
-              <RemoveIcon style={{ fontSize: "1rem" }} />
-            </IconButton>
-            {count}
-            <IconButton
-              style={styles.icon}
-              onClick={() => setCount((p) => p + 1)}
-              aria-label="Add another one"
-            >
-              <AddIcon style={{ fontSize: "1rem" }} />
-            </IconButton>
-          </div>
+          {!hideMutate && (
+            <div className={classes["quantity"]}>
+              <IconButton
+                style={styles.icon}
+                onClick={() => setCount((p) => p - 1)}
+                aria-label="Remove one"
+              >
+                <RemoveIcon style={{ fontSize: "1rem" }} />
+              </IconButton>
+              {count}
+              <IconButton
+                style={styles.icon}
+                onClick={() => setCount((p) => p + 1)}
+                aria-label="Add another one"
+              >
+                <AddIcon style={{ fontSize: "1rem" }} />
+              </IconButton>
+            </div>
+          )}
+          {hideMutate && <div style={{ marginRight: "0.5rem" }}>{count}x</div>}
         </div>
       </div>
     </div>

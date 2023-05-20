@@ -1,13 +1,11 @@
 import React from "react";
 import classes from "./shopping-cart.module.scss";
 import { Button, IconButton } from "@mui/material";
-import { HAIR_WAX } from "../../constants/hair-products";
+import { ITEMS_IN_CART } from "../../constants/hair-products";
 import CartItem from "./CartItem";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import { useNavigate } from "react-router-dom";
-
-const itemsInCart = HAIR_WAX.slice(0, 5);
 
 export default function ShoppingCart(props) {
   const navigate = useNavigate();
@@ -23,7 +21,7 @@ export default function ShoppingCart(props) {
         Cart (6 Items)
       </div>
       <div className={classes["content"]}>
-        {itemsInCart.map((item) => (
+        {ITEMS_IN_CART.map((item) => (
           <CartItem product={item} key={`${item.name}-cart`} />
         ))}
       </div>
@@ -34,6 +32,7 @@ export default function ShoppingCart(props) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          backgroundColor: "black",
           width: "280px",
         }}
       >

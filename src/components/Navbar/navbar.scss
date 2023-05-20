@@ -8,6 +8,6 @@ nav {
   gap: 2rem;
   background-color: $navbar_background;
   height: $navbar_height;
-  width: 100%;
+  min-width: 100%;
   padding-inline: 1rem;
 }
