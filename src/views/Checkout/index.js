@@ -5,8 +5,7 @@ import CartItem from "../../components/ShoppingCart/CartItem";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
-export default function Checkout() {
-  const navigate = useNavigate();
+export function OrderSummary() {
   return (
     <div>
       <div className={classes["card-list"]}>
@@ -32,6 +31,15 @@ export default function Checkout() {
           <div>$462.49</div>
         </div>
       </div>
+    </div>
+  );
+}
+
+export default function Checkout() {
+  const navigate = useNavigate();
+  return (
+    <div>
+      <OrderSummary />
       <div className={classes["payments"]}>
         <Button onClick={() => navigate("/tracking")}>Credit/Debit Card</Button>
         <Button onClick={() => navigate("/tracking")}>Paypal</Button>
