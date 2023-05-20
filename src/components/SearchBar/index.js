@@ -15,6 +15,7 @@ export default function SearchBar(props) {
         top: 0,
         zIndex: 2,
         backgroundColor: "hsl(170, 10%, 10%)",
+        borderBottom:'1px solid white'
       }}
       renderInput={(params) => (
         <TextField
